@@ -6,9 +6,9 @@ This will make the miner stats available on mobile device or web interface where
 
 Requirements
 ============
-Tested from Raspberry Pi using Python version 2.7
-A device that can run the Cayenne agent software might be a requirement. (Haven't tried it without one.)
-A miner like the Antminer S9 that supports the cgminer api.
+1. Tested from Raspberry Pi using Python version 2.7
+2. A device that can run the Cayenne agent software might be a requirement. (Haven't tried it without one.)
+3. A miner like the Antminer S9 that supports the cgminer api.
 
 Steps
 ============
