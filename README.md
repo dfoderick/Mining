@@ -6,18 +6,18 @@ This will make the miner stats available on mobile device or web interface where
 
 Requirements
 ============
-1. Tested from Raspberry Pi using Python version 2.7
-2. A device that can run the Cayenne agent software might be a requirement. (Haven't tried it without one.)
-3. A miner like the Antminer S9 that supports the cgminer api.
+ - Tested from Raspberry Pi using Python version 2.7
+ - A device that can run the Cayenne agent software might be a requirement. (Haven't tried it without one.)
+ - A miner like the Antminer S9 that supports the cgminer api.
 
 Steps
 ============
 1. Make sure python is set up on your rpi. If you have problems then make sure you install dependencies. Do a google search.
-sudo apt-get install build-essential python-dev python-openssl
-sudo python setup.py install
+ - sudo apt-get install build-essential python-dev python-openssl
+ - sudo python setup.py install
 
 2. install mqtt lib. This is a client to communicate with mydevices.com Cayenne back end.
-sudo pip install paho-mqtt
+ - sudo pip install paho-mqtt
 
 3. Create your dashboard by signing up at https://mydevices.com/ and following the prompts. This will set up an agent on your rpi. If you have any issues with the mydevices.com or Cayenne setup then get help on their community forum. Add a device through their site to generate a user id, password id, and client id that you will use in step 5. This will allow you to authenticate to their back end.
 
