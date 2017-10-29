@@ -16,12 +16,14 @@ For example, on Raspberry Pi use the sudo command. For Windows PC run command li
 For Python version 2 use uploadhash.py and minerapi.py. For Python version 3 use uplaodhash3 and minerapi3.py.
 
 1. Make sure python is set up on your computer. If you have problems then make sure you install dependencies and research the error message on Google.
- - sudo apt-get install build-essential python-dev python-openssl
- - sudo python setup.py install
-
+```
+ sudo apt-get install build-essential python-dev python-openssl
+ sudo python setup.py install
+```
 2. install mqtt lib. This is a client to communicate with mydevices.com Cayenne back end.
- - sudo pip install paho-mqtt
-
+```
+sudo pip install paho-mqtt
+```
 3. Create your dashboard by signing up at https://mydevices.com/ and following the prompts. If you have any issues with the mydevices.com or Cayenne setup then get help on their community forum. Add a device through their site to generate a user id, password id, and client id that you will use in step 5. This will allow you to authenticate to their back end.
 
 4. Download https://github.com/ckolivas/cgminer/blob/master/api-example.py (or just get it from this repository)
