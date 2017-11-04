@@ -1,6 +1,8 @@
 # Mining
 Scripts for bitcoin mining
 
+See Antminer folder for script to put Antminer API into privileged access.
+
 Use uploadhash.py to upload hash rate and miner temps to mydevices.com Cayenne dashboard.
 This will make the miner stats available on mobile device or web interface where you can get alerts (email or text) when your miner is in trouble.
 
