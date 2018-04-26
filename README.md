@@ -1,4 +1,4 @@
-# Mining
+# This project has been replaced by Full Cycle Mining https://github.com/dfoderick/fullcycle
 Scripts for bitcoin mining
 
 See Antminer folder for script to put Antminer API into privileged access.
