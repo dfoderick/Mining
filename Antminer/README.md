@@ -1,4 +1,4 @@
-Antminer scripts
+Antminer scripts - Superior implementation include in Full Cycle Mining (https://github.com/dfoderick/fullcycle)
 =================
 bmminer.conf is the original configuration from bitmain. Notice that is sets up an API group that everyone has access to read those commands.
 
